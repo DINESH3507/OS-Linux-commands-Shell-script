@@ -124,23 +124,22 @@ grep hello newfile
 ![Screenshot from 2025-03-06 01-52-29](https://github.com/user-attachments/assets/4a1db8ca-bd16-43fe-a2d0-efba5fa609dc)
 
 
-
-
 grep -v hello newfile 
 ## OUTPUT
 
+![Screenshot from 2025-03-06 02-00-36](https://github.com/user-attachments/assets/bf24ca0c-f877-4ef6-8020-3ee189067d95)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+![Screenshot from 2025-03-06 02-02-04](https://github.com/user-attachments/assets/f1c9ed54-e405-4b19-acff-41c8803e75ff)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+![Screenshot from 2025-03-06 02-03-02](https://github.com/user-attachments/assets/aae15819-9c19-412c-8f2d-d30f71fe9653)
 
 
 grep -R ubuntu /etc
