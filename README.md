@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![Screenshot from 2025-04-11 23-31-13](https://github.com/user-attachments/assets/26ae4c1c-eed4-4c2e-8799-eb8b5dc9bc44)![Screenshot from 2025-04-11 23-31-13](https://github.com/user-attachments/assets/bac59c25-979f-41fd-ba4e-dbdd94d041cd)![image](https://github.com/user-attachments/assets/d71be44c-b848-45f1-ba88-6e578606bdf1)![Screenshot from 2025-04-11 23-20-51](https://github.com/user-attachments/assets/867616ad-e006-45e1-912c-fa3f545decd3)![Screenshot from 2025-04-11 23-17-46](https://github.com/user-attachments/assets/0cd93c77-9d67-4238-8549-6c7df2411bd6)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -182,58 +182,74 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-17-14](https://github.com/user-attachments/assets/8b868692-ae47-4510-a965-e5764fefc92f)
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-13-24](https://github.com/user-attachments/assets/c25f2472-4964-466b-84fb-fc54c26344d0)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
+![Screenshot from 2025-04-11 23-16-28](https://github.com/user-attachments/assets/e2f2464b-74f0-4a9c-acf7-134d35afa2e1)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-17-46](https://github.com/user-attachments/assets/a9785526-3c14-4b81-a24c-ea80f3ccb32a)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-19-49](https://github.com/user-attachments/assets/3b7f4d7d-cfba-4099-a252-0b89362c8958)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+
+![Screenshot from 2025-04-11 23-20-51](https://github.com/user-attachments/assets/4e949855-b1cc-4747-a099-dfec73894759)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
 
+![Screenshot from 2025-04-11 23-28-22](https://github.com/user-attachments/assets/5ca20f77-9b20-4f47-a56e-3185f468793f)
+
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-29-01](https://github.com/user-attachments/assets/f55999e3-73cf-44e1-bb2f-af64868624b0)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-29-58](https://github.com/user-attachments/assets/c309d840-83fc-4a60-aaa2-8d230a191944)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-30-20](https://github.com/user-attachments/assets/b460ab66-da7d-4c77-ab90-ec049c9cb3d2)
 
 egrep l{2} newfile
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-30-48](https://github.com/user-attachments/assets/2a04000d-c04e-475c-9e9c-01b175598a45)
 
 
 egrep 's{1,2}' newfile
-## OUTPUT 
+##OUTPUT 
+
+![Screenshot from 2025-04-11 23-31-13](https://github.com/user-attachments/assets/56a89783-32b5-4074-a843-bfc80c24ed38)
+
 
 
 cat > file23
