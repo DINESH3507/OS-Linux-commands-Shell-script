@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![Screenshot from 2025-04-11 23-47-35](https://github.com/user-attachments/assets/b62113ee-5321-4675-943f-5fcbb9b7d8b1)![Screenshot from 2025-04-11 23-50-56](https://github.com/user-attachments/assets/a2d5db72-8ce4-43b5-bf41-5746be132b72)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -154,11 +154,13 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-39-05](https://github.com/user-attachments/assets/2d4a3a32-56af-49b9-a4ee-1eae2df07393)
 
 
 grep -w -n world newfile   
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-39-47](https://github.com/user-attachments/assets/032f4344-4d1e-4f7d-9c27-9f700333a7ea)
 
 cat < newfile 
 ```
@@ -269,35 +271,45 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-44-59](https://github.com/user-attachments/assets/c5962ad0-846b-4a08-9a82-adcea772f417)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+
+![Screenshot from 2025-04-11 23-45-24](https://github.com/user-attachments/assets/f712f8c8-8bf6-42f2-b398-74afa1af47ce)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-45-48](https://github.com/user-attachments/assets/72819ea5-e473-410b-a932-45f13e8c95b4)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-46-11](https://github.com/user-attachments/assets/7fb191c1-c8bb-4833-ad43-47220cdefa50)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-46-37](https://github.com/user-attachments/assets/fa329079-4d55-4e0e-bd00-24f26d72c29c)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-47-14](https://github.com/user-attachments/assets/4898e27b-4008-4443-801f-cf5cfb05b451)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+
+
+![Screenshot from 2025-04-11 23-49-28](https://github.com/user-attachments/assets/dfc22380-246a-4a35-bf2e-638dd2ba040a)
 
 
 
@@ -305,42 +317,54 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-48-42](https://github.com/user-attachments/assets/e01f1aaa-bbbd-4571-88fd-251075093e6d)
 
 
 seq 10 
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-49-53](https://github.com/user-attachments/assets/95a340fb-adf6-41bd-995f-5e85cc73c6ec)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+
+![Screenshot from 2025-04-11 23-50-17](https://github.com/user-attachments/assets/c8af202d-4d67-43ec-bde6-465d1b21fa9b)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-51-43](https://github.com/user-attachments/assets/fd83b652-e7e0-4fd4-ab22-c8a50b3b4a94)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-52-11](https://github.com/user-attachments/assets/f7b9e285-3e31-48e7-9430-d65760b28d33)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-52-34](https://github.com/user-attachments/assets/64604e29-a30b-40b1-af76-ab48f888de81)
 
-seq 10 | sed '2,9c hello'
+seq 2 | sed '2i hello'
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-53-05](https://github.com/user-attachments/assets/ae2737c3-9ba4-4c8b-93ab-c002f1f4d3ba)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+![Screenshot from 2025-04-11 23-53-27](https://github.com/user-attachments/assets/16fa4822-b82f-407a-944c-42a624e1a301)
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+
+![Screenshot from 2025-04-11 23-53-43](https://github.com/user-attachments/assets/6e33c17c-fc96-4ab4-9774-230b1d0f2646)
 
 
 #Sorting File content
