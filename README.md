@@ -1,4 +1,4 @@
-![Screenshot from 2025-04-11 23-31-13](https://github.com/user-attachments/assets/26ae4c1c-eed4-4c2e-8799-eb8b5dc9bc44)![Screenshot from 2025-04-11 23-31-13](https://github.com/user-attachments/assets/bac59c25-979f-41fd-ba4e-dbdd94d041cd)![image](https://github.com/user-attachments/assets/d71be44c-b848-45f1-ba88-6e578606bdf1)![Screenshot from 2025-04-11 23-20-51](https://github.com/user-attachments/assets/867616ad-e006-45e1-912c-fa3f545decd3)![Screenshot from 2025-04-11 23-17-46](https://github.com/user-attachments/assets/0cd93c77-9d67-4238-8549-6c7df2411bd6)# OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
